@@ -1,5 +1,6 @@
 import { ActionParam, Area, Body, Controller, Ctx, Get, HttpContext, Post } from "alosaur/mod.ts";
-import { readAll, readerFromStreamReader } from "https://deno.land/std@0.171.0/streams/conversion.ts";
+import { readAll } from "https://deno.land/std@0.213.0/streams/read_all.ts";
+import { readerFromStreamReader } from "https://deno.land/std@0.213.0/streams/reader_from_stream_reader.ts"
 
 @Controller()
 export class CoreController {

@@ -1,4 +1,4 @@
-import { Cookie, getCookies, setCookie } from "https://deno.land/std@0.171.0/http/cookie.ts";
+import { Cookie, getCookies, setCookie } from "https://deno.land/std@0.224.0/http/cookie.ts";
 import {
   ActionParam,
   AlosaurRequest,
