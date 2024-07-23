@@ -1,4 +1,3 @@
-import { object } from "https://raw.githubusercontent.com/soremwar/deno_types/master/prop-types/v15.7.2/prop-types.d.ts";
 import { applyInjection, InjectableObject } from "../di/mod.ts";
 import { getOrSetControllerId } from "../metadata/controller.ts";
 import { getMetadataArgsStorage } from "../mod.ts";

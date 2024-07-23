@@ -1,11 +1,20 @@
 {
-  "compilerOptions": {
-  },
   "fmt": {
     "options": {
       "useTabs": false,
       "lineWidth": 120
     }
+  },
+  "imports": {
+    "@std/crypto": "jsr:@std/crypto@^1.0.1",
+    "@std/http": "jsr:@std/http@^0.224.5",
+    "@std/path": "jsr:@std/path@^1.0.1",
+    "@std/uuid/v1": "jsr:@std/uuid@^1.0.0/v1",
+    "alosaur/": "./",
+    "alosaur/microservice/": "./src/microservice/",
+    "media_types": "https://deno.land/x/media_types@v2.13.0/mod.ts",
+	"djwt": "https://deno.land/x/djwt@v3.0.2/mod.ts",
+	"djwt/algorithm": "https://deno.land/x/djwt@v3.0.2/algorithm.ts"
   },
   "importMap": "./imports.json"
 }

@@ -1,5 +1,8 @@
-export { getCookies } from "https://deno.land/std@0.171.0/http/cookie.ts";
-// export { Buffer } from "https://deno.land/std@0.171.0/io/buffer.ts";
+export { getCookies, setCookie, deleteCookie, STATUS_TEXT } from "@std/http";
+
+export { generate } from "@std/uuid/v1";
+
+export { crypto } from "@std/crypto";
 
 export {
   basename,
@@ -9,7 +12,12 @@ export {
   normalize,
   parse,
   resolve,
-  sep,
-} from "https://deno.land/std@0.171.0/path/mod.ts";
+} from "@std/path";
 
-export { contentType } from "https://deno.land/x/media_types@v2.11.1/mod.ts";
+const sep = "/";
+export { sep };
+
+export { contentType } from "media_types";
+
+export { create, getNumericDate, verify } from "djwt";
+export { type Algorithm } from "djwt/algorithm";
