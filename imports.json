@@ -4,6 +4,7 @@
 	  "alosaur/microservice/": "./src/microservice/",
 	  "@std/crypto": "jsr:@std/crypto@^1.0.1",
 	  "@std/http": "jsr:@std/http@^0.224.5",
+	  "@std/media-types": "jsr:@std/media-types@^1.0.2",
 	  "@std/path": "jsr:@std/path@^1.0.1",
 	  "@std/uuid/v1": "jsr:@std/uuid@^1.0.0/v1",
 	  "media_types": "https://deno.land/x/media_types@v2.13.0/mod.ts",

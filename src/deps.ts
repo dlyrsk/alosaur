@@ -17,7 +17,7 @@ export {
 const sep = "/";
 export { sep };
 
-export { contentType } from "media_types";
+export { contentType } from "@std/media-types";
 
 export { create, getNumericDate, verify } from "djwt";
 export { type Algorithm } from "djwt/algorithm";
